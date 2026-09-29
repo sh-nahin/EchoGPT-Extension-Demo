@@ -1,0 +1,570 @@
+@media (min-width: 1600px) {
+  .page {
+    padding-top: 54px;
+  }
+  .home-intro {
+    margin-bottom: 34px;
+  }
+  .tool-card {
+    min-height: 169px;
+    padding: 24px;
+  }
+  .home-bottom {
+    margin-top: 35px;
+  }
+}
+@media (max-width: 1200px) {
+  .sidebar {
+    width: 206px;
+    flex-basis: 206px;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .topbar {
+    padding: 0 28px;
+  }
+  .page {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+  .workspace-footer {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+  .header-actions {
+    gap: 12px;
+  }
+  .search-trigger > span {
+    display: none;
+  }
+  .search-trigger kbd {
+    margin-left: 1px;
+  }
+  .tool-card {
+    padding: 17px 15px;
+  }
+  .tool-card p {
+    font-size: 0.75rem;
+  }
+  .section-meta {
+    display: none;
+  }
+  .home-bottom .section-title {
+    align-items: flex-start;
+  }
+  .home-bottom .section-title h2 {
+    max-width: 160px;
+  }
+  .models-grid,
+  .prompts-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .settings-layout,
+  .editor-layout {
+    grid-template-columns: 1fr;
+  }
+  .editor-layout > .result-panel,
+  .editor-layout > div > .result-panel {
+    min-height: 280px;
+  }
+  .studio-layout {
+    grid-template-columns: 1.1fr 1fr;
+  }
+  .connections-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .page-heading h1 {
+    font-size: 2rem;
+  }
+  .page-heading {
+    align-items: flex-start;
+  }
+  .settings-page .page-heading {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
+@media (max-width: 960px) {
+  .sidebar {
+    flex-basis: 76px;
+    width: 76px;
+    padding: 24px 11px 0;
+  }
+  .sidebar .brand {
+    padding: 0 7px;
+    margin-bottom: 25px;
+  }
+  .sidebar .brand > span:last-child {
+    display: none;
+  }
+  .sidebar .new-chat {
+    font-size: 0;
+    justify-content: center;
+    padding: 10px;
+    gap: 0;
+  }
+  .sidebar .new-chat > .keyhint {
+    display: none;
+  }
+  .sidebar .nav-label {
+    display: none;
+  }
+  .sidebar .nav-item {
+    justify-content: center;
+    height: 40px;
+    padding: 9px;
+  }
+  .sidebar .nav-item > span {
+    display: none;
+  }
+  .sidebar .nav-item > svg {
+    width: 20px;
+    height: 20px;
+  }
+  .sidebar .nav-item {
+    position: relative;
+  }
+  .sidebar .nav-group {
+    margin-bottom: 15px;
+  }
+  .sidebar .profile > span:nth-child(2),
+  .sidebar .profile > svg {
+    display: none;
+  }
+  .sidebar .profile {
+    justify-content: center;
+  }
+  .page-heading {
+    flex-wrap: wrap;
+    gap: 17px;
+  }
+  .tool-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .tool-card {
+    padding: 17px 13px;
+  }
+  .tool-card h3 {
+    font-size: 0.8125rem;
+  }
+  .home-bottom {
+    gap: 13px;
+  }
+  .home-bottom > .panel {
+    padding: 18px;
+  }
+  .connection-callout {
+    flex-wrap: wrap;
+  }
+  .connection-callout .text-button {
+    margin-left: 64px;
+  }
+  .brief-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 700px) {
+  .sidebar {
+    display: none;
+  }
+  .mobile-menu {
+    display: flex;
+  }
+  .topbar {
+    height: 62px;
+    min-height: 62px;
+    padding: 0 17px;
+  }
+  .breadcrumb {
+    gap: 7px;
+    font-size: 0.8125rem;
+  }
+  .breadcrumb-parent {
+    display: none;
+  }
+  .header-actions {
+    gap: 7px;
+  }
+  .search-trigger {
+    padding: 8px;
+  }
+  .search-trigger > kbd {
+    display: none;
+  }
+  .page {
+    padding: 27px 20px 25px;
+    min-height: calc(100% - 65px);
+  }
+  .home-intro h1 {
+    font-size: 2rem;
+    line-height: 1.25;
+    max-width: 370px;
+  }
+  .welcome-line {
+    font-size: 0.75rem;
+    margin-bottom: 16px;
+  }
+  .home-intro p {
+    font-size: 0.8125rem;
+    max-width: 350px;
+  }
+  .home-intro {
+    margin-bottom: 25px;
+  }
+  .composer textarea {
+    padding: 16px 16px 8px;
+    font-size: 0.9375rem;
+  }
+  .composer-toolbar {
+    padding: 8px 11px 12px;
+  }
+  .composer-options {
+    gap: 3px;
+  }
+  .toolbar-divider {
+    margin: 0 4px;
+  }
+  .context-button {
+    gap: 4px;
+  }
+  .composer-caption > span:first-child {
+    display: none;
+  }
+  .composer-caption {
+    justify-content: flex-end;
+  }
+  .quick-prompts {
+    gap: 7px;
+    margin: 19px 0 29px;
+  }
+  .quick-prompts > span {
+    width: 100%;
+    margin-bottom: 3px;
+  }
+  .quick-prompts button {
+    font-size: 0.75rem;
+    gap: 7px;
+  }
+  .tool-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 11px;
+  }
+  .tool-card {
+    min-height: 147px;
+    padding: 18px;
+  }
+  .tool-card h3 {
+    font-size: 0.875rem;
+  }
+  .tool-card p {
+    font-size: 0.8125rem;
+  }
+  .tool-card-top {
+    margin-bottom: 18px;
+  }
+  .home-bottom {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 23px;
+  }
+  .home-bottom .section-title h2 {
+    max-width: none;
+    font-size: 0.8125rem;
+  }
+  .home-empty {
+    padding: 14px 0 4px;
+  }
+  .workspace-footer {
+    padding: 13px 20px 24px;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.75rem;
+  }
+  .workspace-footer > button {
+    display: none;
+  }
+  .mobile-navigation {
+    width: 280px;
+    height: 100dvh;
+    max-height: none;
+    border-radius: 0 18px 18px 0;
+    margin: 0;
+    padding: 18px;
+  }
+  .mobile-navigation .modal-header {
+    margin-bottom: 20px;
+  }
+  .mobile-navigation .modal-header h2 {
+    font-size: 0.875rem;
+    color: var(--muted);
+  }
+  .mobile-sidebar .brand {
+    margin-bottom: 25px;
+  }
+  .mobile-sidebar .new-chat {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .mobile-sidebar .nav-group {
+    margin-bottom: 21px;
+  }
+  .mobile-sidebar .nav-item {
+    min-height: 43px;
+    font-size: 0.875rem;
+  }
+  .mobile-sidebar .nav-label {
+    font-size: 0.75rem;
+  }
+  .page-heading h1 {
+    font-size: 1.9375rem;
+  }
+  .page-heading p {
+    font-size: 0.875rem;
+  }
+  .page-heading {
+    margin-top: 3px;
+    margin-bottom: 26px;
+  }
+  .eyebrow {
+    font-size: 0.75rem;
+  }
+  .form-panel,
+  .result-panel,
+  .compare-prompt,
+  .settings-section {
+    padding: 21px;
+  }
+  .editor-layout,
+  .studio-layout,
+  .compare-grid,
+  .settings-layout {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .chat-welcome {
+    margin: 33px auto;
+  }
+  .chat-welcome h2 {
+    font-size: 1.5rem;
+  }
+  .chat-starters {
+    gap: 9px;
+  }
+  .chat-starters button {
+    font-size: 0.75rem;
+    padding: 14px 11px;
+    gap: 8px;
+  }
+  .chat-starters button > svg {
+    display: none;
+  }
+  .chat-page .page-heading h1 {
+    font-size: 1.5rem;
+  }
+  .message {
+    gap: 11px;
+  }
+  .message .prose {
+    font-size: 0.9375rem;
+  }
+  .chat-composer {
+    bottom: -25px;
+  }
+  .translation-languages {
+    padding: 16px;
+    gap: 7px;
+  }
+  .translation-languages select {
+    font-size: 0.8125rem;
+    padding: 10px;
+  }
+  .translation-editors {
+    grid-template-columns: 1fr;
+  }
+  .translation-editors > div:first-child {
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .translation-editors textarea {
+    min-height: 210px;
+    max-height: 270px;
+    padding: 20px;
+  }
+  .translation-output {
+    min-height: 200px;
+    padding: 20px;
+  }
+  .translation-bottom {
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  .translation-bottom > .button {
+    width: 100%;
+  }
+  .studio-canvas {
+    min-height: 390px;
+  }
+  .aspect-preview {
+    max-height: 310px;
+    width: min(70%, 260px);
+    margin: 25px 0;
+  }
+  .brief-grid,
+  .connections-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .brief-card,
+  .connection-card {
+    padding: 19px;
+  }
+  .connection-callout {
+    padding: 21px;
+    gap: 15px;
+  }
+  .connection-callout > div {
+    flex: 1;
+    min-width: 180px;
+  }
+  .connection-callout .text-button {
+    margin-left: 0;
+  }
+  .connection-callout p {
+    font-size: 0.8125rem;
+  }
+  .compare-column .result-panel {
+    min-height: 280px;
+  }
+  .models-grid,
+  .prompts-grid {
+    gap: 13px;
+  }
+  .model-card,
+  .prompt-card {
+    padding: 21px;
+  }
+  .model-card p {
+    font-size: 0.8125rem;
+  }
+  .model-tags {
+    flex-wrap: wrap;
+  }
+  .list-toolbar {
+    flex-wrap: wrap;
+  }
+  .list-toolbar .search-input {
+    flex-basis: 100%;
+  }
+  .list-toolbar select {
+    flex: 1;
+  }
+  .history-list {
+    padding: 0 17px;
+  }
+  .history-row {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .history-open {
+    flex-basis: 100%;
+  }
+  .row-actions {
+    margin-left: auto;
+  }
+  .filter-tabs {
+    gap: 19px;
+  }
+  .settings-section .setting-row {
+    gap: 13px;
+  }
+  .setting-row {
+    flex-wrap: wrap;
+  }
+  .setting-row > div:first-child {
+    min-width: 160px;
+  }
+  .toast {
+    bottom: 18px;
+    font-size: 0.8125rem;
+    width: max-content;
+  }
+}
+@media (max-width: 420px) {
+  .header-actions {
+    gap: 2px;
+  }
+  .header-actions > .badge {
+    font-size: 0.75rem;
+  }
+  .page {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .home-intro h1 {
+    font-size: 1.8125rem;
+  }
+  .context-button > span {
+    display: none;
+  }
+  .tool-card {
+    padding: 16px;
+    min-height: 148px;
+  }
+  .tool-card p {
+    font-size: 0.8125rem;
+  }
+  .tool-card .badge {
+    display: none;
+  }
+  .section-title h2 {
+    font-size: 0.8125rem;
+  }
+  .model-card,
+  .prompt-card {
+    padding: 20px;
+  }
+  .models-grid,
+  .prompts-grid,
+  .connections-grid,
+  .brief-grid {
+    grid-template-columns: 1fr;
+  }
+  .page-heading h1 {
+    font-size: 1.75rem;
+  }
+  .form-panel,
+  .settings-section {
+    padding: 18px;
+  }
+  .form-actions {
+    flex-wrap: wrap;
+  }
+  .form-actions > .button {
+    flex: 1;
+  }
+  .read-tabs button {
+    font-size: 0.8125rem;
+    gap: 5px;
+  }
+  .read-tabs button svg {
+    width: 14px;
+  }
+  .chip {
+    padding: 8px 10px;
+  }
+  .shortcut-row {
+    flex-wrap: wrap;
+  }
+  .modal {
+    padding: 21px;
+  }
+}
+/* Chrome controls the real popup viewport. Full-page and side-panel views stay fluid. */
+html.extension-popup {
+  width: 420px;
+  height: 600px;
+}
+html.extension-popup body {
+  width: 420px;
+  height: 600px;
+}
