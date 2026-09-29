@@ -1,10 +1,8 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import {
-  ArrowUpRight,
   ChevronRight,
   Command,
   Menu,
-  PanelRightOpen,
   Plus,
   Search,
   Sparkles,
@@ -12,11 +10,10 @@ import {
 } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 import { navigation } from '../../data/catalog';
-import { isExtension, openSidePanel, openWorkspace } from '../../services/extension';
 import { Badge, Button, IconButton, Modal, Toast } from '../ui';
 
 export function AppShell({ children }: { children: ReactNode }) {
-  const { route, navigate, newChat, data, openChat, notify } = useApp();
+  const { route, navigate, newChat, data, openChat } = useApp();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [query, setQuery] = useState('');
